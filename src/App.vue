@@ -1,10 +1,8 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+    <div class="container mx-auto mt-12">
+       <router-view/>
     </div>
-    <router-view/>
   </div>
 </template>
 
